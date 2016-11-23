@@ -1,0 +1,24 @@
+[
+	{
+		"body": "",
+		"correct_answer": "да",
+		
+		"on_start": {
+			"fields": ["text"],
+			"text": "Привет. Ответь на вопрос. Ты человек?",
+			"keyboard": ""
+		},
+			
+		"on_correct_answer": {
+			"fields": ["text"],
+			"text": "Правильно!",
+			"image": ""
+		},
+		
+		"on_incorrect_answer": {
+			"fields": ["text"],
+			"text": "Неправильно :(",
+			"image": ""
+		},
+	},
+]
